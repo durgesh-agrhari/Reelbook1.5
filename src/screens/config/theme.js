@@ -1,0 +1,21 @@
+export const colors = {
+    light:{
+        primary:"#5536ba",
+        secondary:"#ffffff",
+        tertiary:"#4b5563",
+        accent:"#0891b2",
+        tint:"#111827",
+    },
+    dark:{
+        primary:"#5536ba",
+        secondary:"#000000",
+        tertiary:"#4b5563",
+        accent:"#0891b2",
+        tint:"#111827",
+    },
+    primary:"#5536ba",
+        secondary:"#ffffff",
+        tertiary:"#4b5563",
+        accent:"#0891b2",
+        tint:"#111827",
+}

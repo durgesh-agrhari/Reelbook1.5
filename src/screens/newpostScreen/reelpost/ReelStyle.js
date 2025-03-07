@@ -1,0 +1,215 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        // alignContent: 'center',
+        backgroundColor: 'black',
+      },
+      headerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        margin: 15,
+      },
+      hederText: {
+        color: 'white',
+        fontWeight: '700',
+        fontSize: 18,
+        marginRight: 30,
+      },
+      img: {
+        width: '100%',
+        height: '100%',
+        alignSelf: 'center',
+        padding: 10,
+        margin: 5,
+      },
+      imgbox: {
+        backgroundColor: 'gray',
+        borderRadius: 1,
+        margin: 10,
+        width: '52%',
+        height: 400,
+        borderRadius: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        alignSelf: 'center',
+      },
+      btncan: {
+        flexDirection: 'row',
+        alignSelf: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '60%',
+        height: 50,
+        backgroundColor: 'gray',
+        borderRadius: 10,
+        margin: 10,
+      },
+      btn: {
+        alignSelf: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '43%',
+        height: 50,
+        backgroundColor: 'gray',
+        borderRadius: 10,
+        margin: 10,
+      },
+      captionbox: {
+        backgroundColor: '#d2d9d4',
+        margin: 15,
+        borderRadius: 10,
+        borderColor: 'black',
+        borderWidth: 2,
+        padding: 10,
+      },
+      craditbox: {
+        flexDirection: 'row',
+        backgroundColor: '#d2d9d4',
+        borderRadius: 10,
+        borderColor: 'gray',
+        borderWidth: 2,
+        paddingLeft: 10,
+        alignContent: 'center',
+        // justifyContent:'center'
+      },
+      btncanPublic: {
+        alignSelf: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '90%',
+        height: 50,
+        backgroundColor: 'green',
+        borderRadius: 10,
+        margin: 10,
+        marginBottom: 40,
+      },
+      title: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginBottom: 20,
+      },
+      video: {
+        width: '100%',
+        height: 300,
+        marginTop: 20,
+      },
+      left1: {
+        color: 'black',
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginTop: 20,
+        marginLeft: 20,
+      },
+      right1: {
+        marginTop: 20,
+        marginRight: 20,
+        backgroundColor: 'gray',
+        borderRadius: 50,
+        padding: 1,
+      },
+    
+      //################
+    
+      container123: {
+        // flex: 1,
+        padding: 10,
+        backgroundColor: '#f8f8f8',
+      },
+      searchInput: {
+        height: 40,
+        borderColor: '#ccc',
+        borderWidth: 1,
+        borderRadius: 10,
+        paddingLeft: 10,
+        marginBottom: 10,
+        backgroundColor: '#fff',
+        color: 'black',
+      },
+      categoriesContainer: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'flex-start',
+      },
+      categoryItem: {
+        flexDirection: 'row',
+        padding: 15,
+        margin: 5,
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        backgroundColor: '#fff',
+      },
+      categoryItemTop: {
+        flexDirection: 'row',
+        padding: 15,
+        margin: 5,
+        borderRadius: 20,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        backgroundColor: '#4CAF50',
+      },
+      selectedCategoryItem: {
+        backgroundColor: 'gray',
+      },
+      selectedCategoryItemTop: {
+        backgroundColor: '#4CAF50',
+      },
+      categoryText: {
+        color: '#333',
+        textAlign: 'center',
+      },
+      selectedText: {
+        color: '#fff',
+        fontWeight: 'bold',
+      },
+      selectedCategoryDisplay: {
+        paddingHorizontal: 20,
+        paddingVertical: 12,
+        backgroundColor: '#4CAF50',
+        borderRadius: 15,
+        marginHorizontal: 5,
+      },
+      categoryList: {
+        paddingBottom: 20,
+      },
+      videototitle:{
+        color: 'green',
+        alignSelf: 'center',
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginTop: 20,
+      },
+      vcat:{
+         padding: 10,
+         backgroundColor: 'gray',
+         margin: 10,
+         borderRadius: 10,
+         width: '90%',
+         marginTop: 0,
+      },
+      dtpicker:{
+          backgroundColor: 'gray',
+          padding: 10,
+          borderRadius: 10,
+          margin: 5,
+          width: '44%',
+       },
+       ptitle:{
+          color: 'gray',
+          alignSelf: 'center',
+          margin: 5,
+          fontSize: 15,
+       },
+       ctitle:{
+         color: 'gray',
+         fontSize: 13,
+         fontWeight: '500',
+         margin: 10,
+      }
+
+});
+
+export default styles;
