@@ -20,7 +20,7 @@ export const GET_ALLCOMMENTS = '/post/allComment';
 export const DELETE_COMMENT = '/post/daleteComment';
 export const UPDATE_COMMENT = '/post/updateComment';
 export const FOLLOW_USER = '/follow';
-// this one of bothe user and frend user
+// this one of bothe user and frend user ji
 export const USER_POST_DATA = '/post/getFrienddata';
 export const UPDATER_USER = '/update';
 export const UPLOAD_POST = '/s3/upload';
